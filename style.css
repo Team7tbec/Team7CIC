@@ -1,0 +1,45 @@
+body {
+	font-family: 'Open Sans', sans-serif ;
+	background-color: #252525;
+}
+
+.site-logo {
+	text-align: center;
+}
+
+.bg-secondary {
+	background-image: url(img/darksharpedges.png);
+}
+
+.fa-github {
+	font-size: 2em;
+	color: white;
+}
+
+.fa-twitter {
+	font-size: 2em;
+	color: white;
+}
+.fa-instagram {
+	font-size: 2em;
+	color: white;
+}
+.fa-twitch {
+	font-size: 2em;
+	color: white;
+}
+
+#greencheese.p-4 {
+
+	padding-top:10em!important;
+}
+
+#qwerqy.p-4 {
+
+	padding-top:10em!important;
+}
+
+#fractaldude.p-4 {
+
+	padding-top:10em!important;
+}
