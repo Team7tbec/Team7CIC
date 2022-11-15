@@ -13,3 +13,10 @@ We will start by looking and analysing already existing projects, papers etc. on
 
 # Our Final Demo
 We'll provide a demo video in which we'll show the classification and result our model gives after entering the URL of a YouTube video or the video id by classifying the video into educational or non-educational and then further categorising the educational video into sub-categories like music, coding, business etc. We will also show the model we found or made and the dataset we used to train it.
+
+# Tech Stack and Methodology
+- We first used the Youtube Data V3 API in Python to get the YouTube video data from a url or video-id.
+- We then used a pre-existing dataset found on Kaggle and modified it to our uses, classifying the data in Educational and Non-Educational class.
+- We then used the ML.NET model builder in Visual Studio, provided in .NET packages by Microsoft. It uses C#. We converted the output into a console application and added an icon for easier identification
+- For the sub-categorized model we were not able to find any dataset and made our own categorized dataset using web scraping and the YouTube Data V3 API in Python, and then after readying the dataset for model training, trained a model on ML.NET model builder and converted it into console application too.
+- We then made a basic website using HTML, CSS and bootstrap to display a download link for our project. We hosted the website with the help of netlify and added the custom domain name of team7cic.co which we obtained for free due to swags from Hack2Educate.
